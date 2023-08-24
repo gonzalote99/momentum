@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0px 0px 20px #aaaaaa;
+  width: 10vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#coin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#coin-container div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#coin-name {
+  font-weight: 700;
+}
+
+
+#coin-info {
+  margin: 0.5em 0 0 0;
+  font-size: 1.5rem;
+}
+
+#coin-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+#coin-info div:first-child {
+  margin: 0 1em 0 0;
+}
+
+#coin-thumb {
+  width: 3rem;
+  height: 3rem;
+  margin:  0 0.5em 0 0;
+}
+
+#weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#weather-container div {
+  display: flex;
+  align-items: center;
+}
+
+#weather-location {
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
